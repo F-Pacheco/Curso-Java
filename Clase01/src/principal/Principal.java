@@ -26,7 +26,7 @@ public class Principal {
 			}while (jugar);
 			System.out.println("Adivnó el numero en la ronda " + cont);
 		}
-		System.out.println("Hasta luego");
+		System.out.println("Hasta lueg");
 		
 	}
 }
