@@ -1,11 +1,18 @@
 package principal;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class NumerosPrimos {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner (System.in);
 		System.out.println("Ingrese un numero para determinar si es primo o no");
+		
+		List<Integer> matriz= new ArrayList<Integer>();
+		
+		
+		
 		int valor = keyboard.nextInt();
 		int aux, i;
 		if (valor > 100003) {
