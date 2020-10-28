@@ -2,7 +2,7 @@ package principal;
 
 import java.util.Scanner;
 
-public class Principal {
+public class NumeroMagico {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Desea jugar");
