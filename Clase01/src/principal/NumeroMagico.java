@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NumeroMagico {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("Desea jugar");
+		System.out.println("Si desea jugar presione 'y'");
 		boolean jugar = teclado.next().equalsIgnoreCase("y");
 		if (jugar) {	
 			final int magicNum = (int) Math.round(Math.random() * 10);
@@ -14,7 +14,7 @@ public class NumeroMagico {
 			do {
 				if (cont > 0) {
 					pista = (magicNum > choice)?"muy bajo":"muy alto";
-					System.out.println("El numero es "+ pista +" vuelva a ingresar un numero: ");
+					System.out.print("El numero es "+ pista +" vuelva a ingresar un numero: ");
 				}else {
 					System.out.print("Ingrese un numero: ");
 				}
@@ -26,7 +26,7 @@ public class NumeroMagico {
 			}while (jugar);
 			System.out.println("Adivnó el numero en la ronda " + cont);
 		}
-		System.out.println("Hasta lueg");
+		System.out.println("Hasta luego");
 		
 	}
 }
